@@ -1,6 +1,6 @@
 {
   "name": "react-responsive-searchbox",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A search box component library built using React Js",
   "main": "index.js",
   "scripts": {
