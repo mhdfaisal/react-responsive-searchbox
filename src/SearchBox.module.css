@@ -1,0 +1,39 @@
+.searchForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchForm__input{
+    width:50%;
+    padding:1.5%;
+    outline:none;
+    border:1px solid #a1a1a1;
+}
+
+.searchForm__btn{
+    padding:1.5%;
+    width:5%;
+    margin:0;
+    outline:none;
+    border:1px solid #a1a1a1;
+    text-align: left;
+}
+
+
+.searchForm__icon{
+    box-sizing: border-box;
+    font-size: 110%;
+    color:dodgerblue;
+}
+
+@media only screen and (max-width:768px){
+    .searchForm__input{
+        width:90%;
+        padding:3%;
+    }
+    .searchForm__btn{
+        width:10%;
+        padding:3%;
+    }
+}
