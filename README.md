@@ -2,6 +2,9 @@
 
 A search box component library built using React Js
 
+### Important note- 
+Please include a font-awesome CDN in your app for the search icon to display.
+
 ### How to install
 `npm install --save react-responsive-searchbox`
 
@@ -55,5 +58,7 @@ class App extends Component {
 | searchBoxStyles | { }      | A plain Javascript object holding style values for the searchBox. Ex- {border:"none"} |
 | searchButtonStyles | { }      | A plain Javascript object holding style values for the searchButton. Ex- {color:"red"} |
 | searchIconStyles | { } | A plain Javascript object holding style values for the search icon embedded inside the search button. Ex- {color:"red"} |
+| searchFormStyles | { } | A plain Javascript object holding style values for the search form, which is the parent for the search box and the search button.
+Ex- {justifyContent:"center"} |
 | onchange | A function (definition in the example above)  | A Javascript function that is invoked on the onChange event of the search box. |
 | OnSubmit | A function (definition in the example above)  | A Javascript function that is invoked on search submission. |
