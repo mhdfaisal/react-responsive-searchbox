@@ -5,7 +5,7 @@
 }
 
 .searchForm__input{
-    width:50%;
+    flex:10;
     padding:1.5%;
     outline:none;
     border:1px solid #a1a1a1;
@@ -13,7 +13,9 @@
 
 .searchForm__btn{
     padding:1.5%;
-    width:5%;
+    align-self: stretch;
+    flex:1;
+    text-align: center;
     margin:0;
     outline:none;
     border:1px solid #a1a1a1;
